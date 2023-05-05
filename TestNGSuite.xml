@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="false">
+  <listeners>
+    <listener class-name="lesson13.listeners"></listener>
+  </listeners>
+  <test name="Test classes">
+    <groups>
+      <run>
+        <include name="test4" />
+        <include name="test2" />
+        <include name="test2" />
+        <exclude name="test1" />
+      </run>
+    </groups>
+    <classes>
+      <class name="Lesson16_rootCauseAnalysis.testNGSuite"/>
+      <class name="Lesson16_rootCauseAnalysis.myTestNG1"/>
+      <class name="Lesson16_rootCauseAnalysis.myTestNG2"/>
+      <class name="lesson12.midTermExam">
+            <methods>
+              <include name="startSession"/>
+              <include name="test01_verifyInitialPrice"/>
+              <include name="test02_verifyUpdatePrice"/>
+              <exclude name="test03_verifyAlertData"/>
+              <include name="endSession"/>
+            </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+
+  <test name="Test package">
+      <packages>
+      <package name="Lesson15"></package>
+    </packages>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

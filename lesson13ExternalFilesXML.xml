@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Enviroment>
+<EnviromentType>PC</EnviromentType>
+<ApplicationType>Browser</ApplicationType>
+<BrowserType>Chrome</BrowserType>
+<URL>https://atidcollege.co.il/Xamples/bmi/</URL>
+<Weight>75</Weight>
+<Height>180</Height>
+<expectedBMI>23</expectedBMI>
+<expectedItMeans>That you are healthy.</expectedItMeans>
+</Enviroment>

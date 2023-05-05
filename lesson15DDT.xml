@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Enviroment>
+    <EnviromentType>PC</EnviromentType>
+    <ApplicationType>Browser</ApplicationType>
+    <BrowserType>Chrome</BrowserType>
+    <URL>https://www.wikipedia.org/</URL>
+    <searchValue0>Sport</searchValue0>
+    <expectedResult0>Sport</expectedResult0>
+    <searchValue1>Germany</searchValue1>
+    <expectedResult1>Germany</expectedResult1>
+    <searchValue2>Java</searchValue2>
+    <expectedResult2>Java</expectedResult2>
+</Enviroment>

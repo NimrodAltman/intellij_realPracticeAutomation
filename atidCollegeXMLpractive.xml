@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Enviroment>
+	<EnviromentType>PC</EnviromentType>
+	<ApplicationType>Browser</ApplicationType>
+	<BrowserType>Chrome</BrowserType>
+	<URL>https://atid.store/checkout-2/</URL>
+	<checkOutCompanyName>Altman IncFromXML</checkOutCompanyName>
+	<checkOutLastName>AltmanFromXML</checkOutLastName>
+</Enviroment>
